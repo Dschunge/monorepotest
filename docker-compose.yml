@@ -1,3 +1,4 @@
+# Edit this file everytime you commit an update and if you want it to redeploy on Portainer
 version: "3"
 
 services:
