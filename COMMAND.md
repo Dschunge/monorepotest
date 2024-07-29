@@ -1,3 +1,8 @@
+# Start project api
+yarn workspace api run start:dev
+
+
+
 # Create a network, which allows containers to communicate
 # with each other, by using their container name as a hostname
 sudo docker network create app_network
