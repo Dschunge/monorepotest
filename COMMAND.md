@@ -14,4 +14,6 @@ COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 sudo docker-compose -f docker-compo
 sudo docker-compose -f docker-compose.yml up -d
 
 # Stop all running containers
-sudo docker kill $(docker ps -q) && docker rm $(docker ps -a -q)
+sudo docker kill $(sudo docker ps -q) && sudo docker rm $(sudo docker ps -a -q)
+
+sudo docker exec -it 2c04e4a5ff97 sh
