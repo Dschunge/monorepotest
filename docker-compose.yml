@@ -1,5 +1,9 @@
 # Edit this file everytime you commit an update and if you want it to redeploy on Portainer Try 3
+<<<<<<< HEAD
 version: "3"
+=======
+version: "3.0.1"
+>>>>>>> 6f9fc20 (commit 5)
 
 services:
   web:
