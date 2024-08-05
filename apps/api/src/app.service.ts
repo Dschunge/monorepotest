@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Diria HMS Server is running fine';
+  getStatus(): string {
+    return 'Diria HMS Server is running ok';
   }
 }
